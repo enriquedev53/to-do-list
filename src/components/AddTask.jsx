@@ -9,10 +9,10 @@ export default function AddTask({addToBacklog}) {
   }
 
   return (
-    <>
+    <div className="form">
       <label htmlFor="input">New task</label>
       <input id='input' type="text" />
       <button onClick={validateText}>Add</button>
-    </>
+    </div>
   )
 }
